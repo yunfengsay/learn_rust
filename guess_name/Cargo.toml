@@ -1,0 +1,9 @@
+[package]
+name = "guess_name"
+version = "0.1.0"
+authors = ["yunfengzhang.zyf <yunfengzhang.zyf@alibaba-inc.com>"]
+edition = "2018"
+
+[dependencies]
+rand = "0.3.14"
+
