@@ -1,0 +1,6 @@
+[package]
+name = "l_struct"
+version = "0.1.0"
+authors = ["yunfengsay <yunfengsay@163.com>"]
+
+[dependencies]
