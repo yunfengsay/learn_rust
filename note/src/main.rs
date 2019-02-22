@@ -50,7 +50,6 @@ fn main() -> io::Result<()> {
         //     // line: String     x:Result<String, Error>
         //     println!("{}", line);
         // }
-
     }
 }
 
@@ -76,6 +75,12 @@ fn pop_str(content: &str) {
         None => println!("{}", "no such content"),
         Some(val) => {
             println!("{:?}", val.0);
+            let mut file = OpenOptions::new()
+            .write(true)
+            .truncate(true)
+            .open(FILE_PATH)
+            .unwrap();
+            
         },
     }
 }
